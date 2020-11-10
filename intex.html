@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Registration Form
+		</title>
+	</head>
+	<body>
+		<h1>REGISTRATION FORM</h1>
+	<form action="visit.html">
+		<input type="text" placeholder="Your Name" required /><br /><br />
+		DOB: <input type="date" /><br /><br />
+		Gender:<br />
+		Male: <input type="radio" value="male" name="gender" />
+		Female: <input type="radio" value="female" name="gender" />
+		Others: <input type="radio" value="others" name="gender" /><br /><br />
+		Address: <textarea rows="5" cols="25"> </textarea><br /><br />
+		Programmes:
+		<input type="text" list="programmes" />
+		<datalist id="programmes">
+			<option value="Computer Science" />
+			<option value="Physics" />
+			<option value="Chemistry" />
+			<option value="Mathematics" />
+			<option value="Statistics" />
+		</datalist><br /><br />
+		University:
+		<select>
+			<option>Kannur University</option>
+			<option>University of Calicut</option>
+			<option>MG University</option>
+			<option>Kerala University</option>
+		</select><br /><br />
+		Languages Known:<br />
+		Malayalam : <input type="checkbox" value="mal" />
+		English: <input type="checkbox" value="eng" />
+		Hindi: <input type="checkbox" value="hin" /><br /><br />
+		<input type="text" placeholder="Phone Number" /><br /><br />
+		<input type="email" placeholder="Your Email ID" /><br /><br />
+		<input type="password" placeholder="Your Password" maxlength="20"/>
+		<input type="password" placeholder="Confirm Password" maxlength="20" /><br /><br />
+		<button>
+			<input type="Submit" value="Register" />
+			<input type="reset" />
+		<button />
+	</form>		
+	</body>
+</html>
